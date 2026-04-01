@@ -50,6 +50,9 @@ def preprocess(df):
         lambda x: x.fillna(x.median())
     )
 
+    # Fill Fare for test.csv
+    df['Fare'] = df['Fare'].fillna(df['Fare'].median())
+
     # Feature Engineering
     df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
     df['IsAlone'] = (df['FamilySize'] == 1).astype(int)

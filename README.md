@@ -100,7 +100,7 @@ Then open your browser and navigate to: [http://127.0.0.1:5000](http://127.0.0.1
 <br/>
 
 <div align="center">
-  <img src="mlflowScreenshots/mlflow_metrics.png" alt="MLflow Metrics" width="800"/>
+  <img src="mlflowScreenshots/mlflow_metrics1.png" alt="MLflow Metrics" width="800"/>
   <br/>
   <i>Detailed Metrics and Hyperparameters in MLflow</i>
 </div>

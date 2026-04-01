@@ -91,6 +91,32 @@ mlflow ui --backend-store-uri sqlite:///mlflow.db
 
 Then open your browser and navigate to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
+<div align="center">
+  <img src="mlflowScreenshots/mlflow_ui.png" alt="MLflow UI" width="800"/>
+  <br/>
+  <i>MLflow Experiment Tracking UI</i>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="mlflowScreenshots/mlflow_metrics.png" alt="MLflow Metrics" width="800"/>
+  <br/>
+  <i>Detailed Metrics and Hyperparameters in MLflow</i>
+</div>
+
+---
+
+## 📈 Results & Visualizations
+
+Our best Random Forest model achieved an impressive **Accuracy of 0.843** on the validation set. 
+
+Below is the **Feature Importance** plot generated during the training process, highlighting which features contributed most to the model's predictions:
+
+<div align="center">
+  <img src="feature_importance.png" alt="Feature Importance" width="600"/>
+</div>
+
 ---
 
 ## 🛠️ Built With

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Data
+data/
+*.csv
+
+# Models
+models/
+*.pkl
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Logs
+*.log
+
+# OS
+.DS_Store
